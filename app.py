@@ -210,17 +210,18 @@ if uploaded_file is not None:
 
         if len(enfermedades) > 0:
 
-    for _, row in enfermedades.iterrows():
+            for _, row in enfermedades.iterrows():
 
-        st.write(f"• Enfermedad: {row['enfermedad']}")
-        st.write(f"  Gravedad: {row['gravedad']}")
-        st.write(f"  Recomendación: {row['recomendacion']}")
-        st.write("---")
+                st.write(f"• Enfermedad: {row['enfermedad']}")
+                st.write(f"  Gravedad: {row['gravedad']}")
+                st.write(f"  Recomendación: {row['recomendacion']}")
+                st.write("---")
 
-else:
-    st.warning(
-        "No se encontró información de enfermedades para esta raza."
-    )
+        else:
+            st.warning(
+                "No se encontró información de enfermedades para esta raza."
+            )
+
 # =====================================================
 # FOOTER
 # =====================================================
