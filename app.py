@@ -53,7 +53,11 @@ with open("class_names.json", "r") as f:
 # CARGAR CSV DE ENFERMEDADES
 # =====================================================
 
-df_enfermedades = pd.read_csv("enfermedades_por_raza_completo.csv")
+df_enfermedades = pd.read_csv(
+    "enfermedades_por_raza_completo (6).csv",
+    sep=";",
+    encoding="latin1"
+)
 
 # =====================================================
 # TRANSFORMACIONES DE IMAGEN
