@@ -81,10 +81,15 @@ def load_model():
     # Cargar ResNet50
     model = models.resnet50(weights=None)
 
-    # Cambiar última capa
-    model.fc = nn.Linear(model.fc.in_features, num_classes)
+    # MISMA arquitectura usada en entrenamiento
+    model.fc = nn.Sequential(
+        nn.Linear(model.fc.in_features, 512),
+        nn.ReLU(),
+        nn.Dropout(0.3),
+        nn.Linear(512, num_classes)
+    )
 
-    # Cargar pesos entrenados
+    # Cargar pesos
     model.load_state_dict(
         torch.load(
             "mejor_resnet.pth",
