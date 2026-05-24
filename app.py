@@ -1,3 +1,4 @@
+
 import streamlit as st
 import torch
 import torch.nn as nn
@@ -5,7 +6,6 @@ from torchvision import models, transforms
 from PIL import Image
 import pandas as pd
 import json
-
 
 # =====================================================
 # CONFIGURACIÓN DE LA PÁGINA
@@ -22,6 +22,7 @@ st.set_page_config(
 # =====================================================
 
 st.title("🐶🐱 Clasificador de Razas de Mascotas")
+
 st.write(
     "Sube una imagen de un perro o gato y el modelo predecirá la raza."
 )
@@ -77,15 +78,14 @@ transform = transforms.Compose([
 # =====================================================
 
 @st.cache_resource
-
 def load_model():
 
     num_classes = len(class_names)
 
-    # Cargar ResNet50
+    # ResNet50
     model = models.resnet50(weights=None)
 
-    # MISMA arquitectura usada en entrenamiento
+    # Arquitectura usada en entrenamiento
     model.fc = nn.Sequential(
         nn.Linear(model.fc.in_features, 512),
         nn.ReLU(),
@@ -93,7 +93,7 @@ def load_model():
         nn.Linear(512, num_classes)
     )
 
-    # Cargar pesos
+    # Cargar pesos entrenados
     model.load_state_dict(
         torch.load(
             "mejor_resnet.pth",
@@ -105,7 +105,10 @@ def load_model():
 
     return model
 
-# CARGAR EL MODELO
+# =====================================================
+# INICIALIZAR MODELO
+# =====================================================
+
 model = load_model()
 
 # =====================================================
@@ -117,6 +120,7 @@ def predict_image(image):
     image = transform(image).unsqueeze(0)
 
     with torch.no_grad():
+
         outputs = model(image)
 
         probabilities = torch.softmax(outputs, dim=1)
@@ -130,7 +134,7 @@ def predict_image(image):
     return predicted_class, confidence, probabilities
 
 # =====================================================
-# FUNCIÓN TOP 3 PREDICCIONES
+# TOP PREDICCIONES
 # =====================================================
 
 def get_top_predictions(probabilities, top_k=3):
@@ -142,14 +146,14 @@ def get_top_predictions(probabilities, top_k=3):
     for prob, idx in zip(top_probs[0], top_indices[0]):
 
         breed = class_names[idx.item()]
-
         probability = prob.item() * 100
 
         results.append((breed, probability))
 
     return results
+
 # =====================================================
-# CARGAR IMAGEN
+# SUBIR IMAGEN
 # =====================================================
 
 uploaded_file = st.file_uploader(
@@ -158,34 +162,41 @@ uploaded_file = st.file_uploader(
 )
 
 # =====================================================
-# PREDICCIÓN
+# PROCESAMIENTO
 # =====================================================
 
 if uploaded_file is not None:
 
     try:
 
+        # Abrir imagen
         image = Image.open(uploaded_file).convert("RGB")
 
-        st.image(image, caption="Imagen subida", use_container_width=True)
+        # Mostrar imagen
+        st.image(
+            image,
+            caption="Imagen subida",
+            use_container_width=True
+        )
 
+        # Predicción
         with st.spinner("Analizando imagen..."):
 
             predicted_class, confidence, probabilities = predict_image(image)
 
             top_predictions = get_top_predictions(probabilities)
 
-        # =============================================
+        # =================================================
         # RESULTADO PRINCIPAL
-        # =============================================
+        # =================================================
 
         st.success(f"Raza predicha: {predicted_class}")
 
         st.info(f"Confianza: {confidence:.2f}%")
 
-        # =============================================
-        # TOP 3 PREDICCIONES
-        # =============================================
+        # =================================================
+        # TOP 3
+        # =================================================
 
         st.subheader("Top 3 Predicciones")
 
@@ -194,11 +205,14 @@ if uploaded_file is not None:
             columns=["Raza", "Probabilidad (%)"]
         )
 
-        st.dataframe(top_df, use_container_width=True)
+        st.dataframe(
+            top_df,
+            use_container_width=True
+        )
 
-        # =============================================
-        # INFORMACIÓN DE ENFERMEDADES
-        # =============================================
+        # =================================================
+        # INFORMACIÓN DE SALUD
+        # =================================================
 
         st.subheader("Información de Salud")
 
@@ -213,14 +227,24 @@ if uploaded_file is not None:
             for _, row in enfermedades.iterrows():
 
                 st.write(f"• Enfermedad: {row['enfermedad']}")
+
                 st.write(f"  Gravedad: {row['gravedad']}")
-                st.write(f"  Recomendación: {row['recomendacion']}")
+
+                st.write(
+                    f"  Recomendación: {row['recomendacion']}"
+                )
+
                 st.write("---")
 
         else:
+
             st.warning(
                 "No se encontró información de enfermedades para esta raza."
             )
+
+    except Exception as e:
+
+        st.error(f"Error al procesar la imagen: {e}")
 
 # =====================================================
 # FOOTER
