@@ -1,112 +1,112 @@
-锘縝reed,disease,severity,recommendation
-Abyssinian,Enfermedad periodontal,Media,Higiene dental y controles veterinarios frecuentes
-Abyssinian,Amiloidosis renal,Alta,Monitorear funci贸n renal peri贸dicamente
-Abyssinian,Atrofia progresiva de retina,Media,Realizar revisiones oftalmol贸gicas
-Bengal,Cardiomiopat铆a hipertr贸fica,Alta,Realizar ecocardiogramas preventivos
-Bengal,Atrofia progresiva de retina,Media,Controles visuales regulares
-Bengal,Displasia de cadera,Media,Evitar sobrepeso y monitorear movilidad
-Bombay,Problemas respiratorios,Media,Evitar ambientes con humo o polvo
-Bombay,Obesidad,Media,Controlar dieta y ejercicio
-Bombay,Cardiomiopat铆a hipertr贸fica,Alta,Chequeos card铆acos peri贸dicos
-Birman,Enfermedad renal poliqu铆stica,Alta,Monitoreo renal constante
-Birman,Obesidad,Media,Mantener dieta balanceada
-Birman,Cardiomiopat铆a hipertr贸fica,Alta,Revisiones veterinarias frecuentes
-British Shorthair,Obesidad,Alta,Control nutricional y actividad f铆sica
-British Shorthair,Cardiomiopat铆a hipertr贸fica,Alta,Ecocardiogramas preventivos
-British Shorthair,Enfermedad periodontal,Media,Limpieza dental frecuente
-Maine Coon,Cardiomiopat铆a hipertr贸fica,Alta,Monitoreo card铆aco regular
-Maine Coon,Displasia de cadera,Alta,Evitar sobrepeso y realizar ejercicio moderado
-Maine Coon,Atrofia muscular espinal,Media,Controles neurol贸gicos
-Persian,Problemas respiratorios,Alta,Evitar calor extremo y monitorear respiraci贸n
-Persian,Enfermedad renal poliqu铆stica,Alta,Revisiones renales peri贸dicas
-Persian,Problemas oculares,Media,Limpieza y revisi贸n ocular frecuente
-Egyptian Mau,Cardiomiopat铆a hipertr贸fica,Alta,Chequeos card铆acos preventivos
-Egyptian Mau,Asma felina,Media,Evitar ambientes contaminados
-Egyptian Mau,Obesidad,Media,Mantener actividad f铆sica constante
-Ragdoll,Cardiomiopat铆a hipertr贸fica,Alta,Monitoreo card铆aco frecuente
-Ragdoll,C谩lculos urinarios,Media,Control de hidrataci贸n y alimentaci贸n
-Ragdoll,Obesidad,Media,Controlar ingesta cal贸rica
-Russian Blue,Obesidad,Media,Ejercicio diario y dieta controlada
-Russian Blue,Problemas urinarios,Media,Monitorear h谩bitos urinarios
-Russian Blue,Diabetes felina,Media,Evitar sobrepeso
-Siamese,Problemas respiratorios,Media,Evitar cambios bruscos de temperatura
-Siamese,Amiloidosis,Alta,Monitoreo hep谩tico y renal
-Siamese,Problemas visuales,Baja,Revisi贸n oftalmol贸gica
-Sphynx,Cardiomiopat铆a hipertr贸fica,Alta,Controles card铆acos frecuentes
-Sphynx,Problemas dermatol贸gicos,Alta,Higiene regular de la piel
-Sphynx,Hipotermia,Media,Evitar exposici贸n al fr铆o
-Boxer,Cardiomiopat铆a dilatada,Alta,Chequeos card铆acos frecuentes
-Boxer,C谩ncer,Alta,Controles veterinarios preventivos
-Boxer,Displasia de cadera,Media,Monitorear movilidad y peso
-Keeshond,Epilepsia,Media,Controles neurol贸gicos
-Keeshond,Displasia de cadera,Media,Evitar obesidad
-Keeshond,Hipotiroidismo,Media,Ex谩menes hormonales peri贸dicos
-Havanese,Cataratas,Media,Controles oftalmol贸gicos
-Havanese,Sordera cong茅nita,Baja,Evaluaciones auditivas
-Havanese,Problemas dentales,Media,Higiene dental constante
-Basset Hound,Problemas de columna,Alta,Evitar saltos excesivos
-Basset Hound,Obesidad,Alta,Control de alimentaci贸n
-Basset Hound,Infecciones de o铆do,Media,Limpieza frecuente de orejas
-English Setter,Displasia de cadera,Alta,Monitorear actividad f铆sica
-English Setter,Hipotiroidismo,Media,Ex谩menes veterinarios regulares
-English Setter,Sordera cong茅nita,Baja,Pruebas auditivas preventivas
-Miniature Pinscher,Luxaci贸n de r贸tula,Media,Evitar ejercicios bruscos
-Miniature Pinscher,Epilepsia,Media,Controles neurol贸gicos
-Miniature Pinscher,Problemas dentales,Media,Higiene oral frecuente
-Chihuahua,Problemas card铆acos,Alta,Chequeos veterinarios frecuentes
-Chihuahua,Hipoglucemia,Media,Alimentaci贸n regular
-Chihuahua,Luxaci贸n de r贸tula,Media,Evitar saltos altos
-Great Pyrenees,Displasia de cadera,Alta,Controlar peso corporal
-Great Pyrenees,Torsi贸n g谩strica,Alta,Fraccionar comidas
-Great Pyrenees,Osteosarcoma,Alta,Monitoreo veterinario continuo
-German Shorthaired,Displasia de cadera,Alta,Ejercicio moderado y control veterinario
-German Shorthaired,Torsi贸n g谩strica,Alta,Evitar ejercicio despu茅s de comer
-German Shorthaired,Epilepsia,Media,Seguimiento neurol贸gico
-Beagle,Obesidad,Alta,Control estricto de dieta
-Beagle,Epilepsia,Media,Monitoreo veterinario
-Beagle,Hipotiroidismo,Media,Ex谩menes hormonales peri贸dicos
-Staffordshire Bull Terrier,Alergias cut谩neas,Media,Evitar al茅rgenos comunes
-Staffordshire Bull Terrier,Displasia de cadera,Media,Monitorear movilidad
-Staffordshire Bull Terrier,Cataratas,Media,Revisiones oftalmol贸gicas
-English Cocker Spaniel,Infecciones de o铆do,Alta,Limpieza frecuente de orejas
-English Cocker Spaniel,Cataratas,Media,Controles oftalmol贸gicos
-English Cocker Spaniel,Problemas card铆acos,Media,Chequeos veterinarios
-New Found Land,Displasia de cadera,Alta,Evitar sobrepeso
-New Found Land,Problemas card铆acos,Alta,Monitoreo card铆aco constante
-New Found Land,Torsi贸n g谩strica,Alta,Fraccionar comidas
-Pomeranian,Colapso traqueal,Alta,Evitar collares ajustados
-Pomeranian,Problemas dentales,Media,Higiene oral frecuente
-Pomeranian,Luxaci贸n de r贸tula,Media,Evitar saltos bruscos
-Leonberger,Displasia de cadera,Alta,Controlar actividad f铆sica
-Leonberger,Osteosarcoma,Alta,Monitoreo veterinario frecuente
-Leonberger,Problemas card铆acos,Alta,Chequeos card铆acos regulares
-American Pit Bull Terrier,Alergias cut谩neas,Media,Control dermatol贸gico frecuente
-American Pit Bull Terrier,Displasia de cadera,Media,Evitar obesidad
-American Pit Bull Terrier,Hipotiroidismo,Media,Ex谩menes hormonales
-Wheaten Terrier,Enfermedad renal,Alta,Monitoreo renal constante
-Wheaten Terrier,Alergias cut谩neas,Media,Evitar irritantes ambientales
-Wheaten Terrier,Problemas digestivos,Media,Dieta controlada
-Japanese Chin,Problemas respiratorios,Alta,Evitar ejercicio intenso en calor
-Japanese Chin,Problemas card铆acos,Media,Chequeos veterinarios frecuentes
-Japanese Chin,Luxaci贸n de r贸tula,Media,Evitar superficies resbalosas
-Samyod,Displasia de cadera,Alta,Control de peso y actividad
-Samyod,Diabetes,Media,Control alimenticio
-Samyod,Problemas oculares,Media,Revisiones oftalmol贸gicas
-Scottish Terrier,C谩ncer de vejiga,Alta,Controles veterinarios preventivos
-Scottish Terrier,Alergias cut谩neas,Media,Monitoreo dermatol贸gico
-Scottish Terrier,Problemas hep谩ticos,Media,Ex谩menes de sangre peri贸dicos
-Shiba Inu,Alergias cut谩neas,Media,Evitar alimentos irritantes
-Shiba Inu,Luxaci贸n de r贸tula,Media,Monitorear movilidad
-Shiba Inu,Glaucoma,Alta,Controles oftalmol贸gicos frecuentes
-Pug,S铆ndrome braquicef谩lico,Alta,Evitar calor extremo y ejercicio intenso
-Pug,Problemas respiratorios,Alta,Monitorear respiraci贸n constantemente
-Pug,Obesidad,Media,Control nutricional estricto
-Saint Bernard,Displasia de cadera,Alta,Evitar sobrepeso
-Saint Bernard,Torsi贸n g谩strica,Alta,Fraccionar alimentaci贸n diaria
-Saint Bernard,Problemas card铆acos,Alta,Monitoreo veterinario frecuente
-American Bulldog,Displasia de cadera,Alta,Controlar peso corporal
-American Bulldog,Problemas respiratorios,Media,Evitar ejercicio excesivo en calor
-American Bulldog,Alergias cut谩neas,Media,Monitoreo dermatol贸gico
-Yorkshire Terrier,Colapso traqueal,Alta,Evitar collares ajustados
-Yorkshire Terrier,Problemas dentales,Alta,Higiene oral frecuente
-Yorkshire Terrier,Hipoglucemia,Media,Alimentaci贸n balanceada
+"raza,enfermedad,gravedad,recomendacion"
+"Abyssinian,Enfermedad periodontal,Media,Higiene dental y controles veterinarios frecuentes"
+"Abyssinian,Amiloidosis renal,Alta,Monitorear funci髇 renal peri骴icamente"
+"Abyssinian,Atrofia progresiva de retina,Media,Realizar revisiones oftalmol骻icas"
+"Bengal,Cardiomiopat韆 hipertr骹ica,Alta,Realizar ecocardiogramas preventivos"
+"Bengal,Atrofia progresiva de retina,Media,Controles visuales regulares"
+"Bengal,Displasia de cadera,Media,Evitar sobrepeso y monitorear movilidad"
+"Bombay,Problemas respiratorios,Media,Evitar ambientes con humo o polvo"
+"Bombay,Obesidad,Media,Controlar dieta y ejercicio"
+"Bombay,Cardiomiopat韆 hipertr骹ica,Alta,Chequeos card韆cos peri骴icos"
+"Birman,Enfermedad renal poliqu韘tica,Alta,Monitoreo renal constante"
+"Birman,Obesidad,Media,Mantener dieta balanceada"
+"Birman,Cardiomiopat韆 hipertr骹ica,Alta,Revisiones veterinarias frecuentes"
+"British Shorthair,Obesidad,Alta,Control nutricional y actividad f韘ica"
+"British Shorthair,Cardiomiopat韆 hipertr骹ica,Alta,Ecocardiogramas preventivos"
+"British Shorthair,Enfermedad periodontal,Media,Limpieza dental frecuente"
+"Maine Coon,Cardiomiopat韆 hipertr骹ica,Alta,Monitoreo card韆co regular"
+"Maine Coon,Displasia de cadera,Alta,Evitar sobrepeso y realizar ejercicio moderado"
+"Maine Coon,Atrofia muscular espinal,Media,Controles neurol骻icos"
+"Persian,Problemas respiratorios,Alta,Evitar calor extremo y monitorear respiraci髇"
+"Persian,Enfermedad renal poliqu韘tica,Alta,Revisiones renales peri骴icas"
+"Persian,Problemas oculares,Media,Limpieza y revisi髇 ocular frecuente"
+"Egyptian Mau,Cardiomiopat韆 hipertr骹ica,Alta,Chequeos card韆cos preventivos"
+"Egyptian Mau,Asma felina,Media,Evitar ambientes contaminados"
+"Egyptian Mau,Obesidad,Media,Mantener actividad f韘ica constante"
+"Ragdoll,Cardiomiopat韆 hipertr骹ica,Alta,Monitoreo card韆co frecuente"
+"Ragdoll,C醠culos urinarios,Media,Control de hidrataci髇 y alimentaci髇"
+"Ragdoll,Obesidad,Media,Controlar ingesta cal髍ica"
+"Russian Blue,Obesidad,Media,Ejercicio diario y dieta controlada"
+"Russian Blue,Problemas urinarios,Media,Monitorear h醔itos urinarios"
+"Russian Blue,Diabetes felina,Media,Evitar sobrepeso"
+"Siamese,Problemas respiratorios,Media,Evitar cambios bruscos de temperatura"
+"Siamese,Amiloidosis,Alta,Monitoreo hep醫ico y renal"
+"Siamese,Problemas visuales,Baja,Revisi髇 oftalmol骻ica"
+"Sphynx,Cardiomiopat韆 hipertr骹ica,Alta,Controles card韆cos frecuentes"
+"Sphynx,Problemas dermatol骻icos,Alta,Higiene regular de la piel"
+"Sphynx,Hipotermia,Media,Evitar exposici髇 al fr韔"
+"Boxer,Cardiomiopat韆 dilatada,Alta,Chequeos card韆cos frecuentes"
+"Boxer,C醤cer,Alta,Controles veterinarios preventivos"
+"Boxer,Displasia de cadera,Media,Monitorear movilidad y peso"
+"Keeshond,Epilepsia,Media,Controles neurol骻icos"
+"Keeshond,Displasia de cadera,Media,Evitar obesidad"
+"Keeshond,Hipotiroidismo,Media,Ex醡enes hormonales peri骴icos"
+"Havanese,Cataratas,Media,Controles oftalmol骻icos"
+"Havanese,Sordera cong閚ita,Baja,Evaluaciones auditivas"
+"Havanese,Problemas dentales,Media,Higiene dental constante"
+"Basset Hound,Problemas de columna,Alta,Evitar saltos excesivos"
+"Basset Hound,Obesidad,Alta,Control de alimentaci髇"
+"Basset Hound,Infecciones de o韉o,Media,Limpieza frecuente de orejas"
+"English Setter,Displasia de cadera,Alta,Monitorear actividad f韘ica"
+"English Setter,Hipotiroidismo,Media,Ex醡enes veterinarios regulares"
+"English Setter,Sordera cong閚ita,Baja,Pruebas auditivas preventivas"
+"Miniature Pinscher,Luxaci髇 de r髏ula,Media,Evitar ejercicios bruscos"
+"Miniature Pinscher,Epilepsia,Media,Controles neurol骻icos"
+"Miniature Pinscher,Problemas dentales,Media,Higiene oral frecuente"
+"Chihuahua,Problemas card韆cos,Alta,Chequeos veterinarios frecuentes"
+"Chihuahua,Hipoglucemia,Media,Alimentaci髇 regular"
+"Chihuahua,Luxaci髇 de r髏ula,Media,Evitar saltos altos"
+"Great Pyrenees,Displasia de cadera,Alta,Controlar peso corporal"
+"Great Pyrenees,Torsi髇 g醩trica,Alta,Fraccionar comidas"
+"Great Pyrenees,Osteosarcoma,Alta,Monitoreo veterinario continuo"
+"German Shorthaired,Displasia de cadera,Alta,Ejercicio moderado y control veterinario"
+"German Shorthaired,Torsi髇 g醩trica,Alta,Evitar ejercicio despu閟 de comer"
+"German Shorthaired,Epilepsia,Media,Seguimiento neurol骻ico"
+"Beagle,Obesidad,Alta,Control estricto de dieta"
+"Beagle,Epilepsia,Media,Monitoreo veterinario"
+"Beagle,Hipotiroidismo,Media,Ex醡enes hormonales peri骴icos"
+"Staffordshire Bull Terrier,Alergias cut醤eas,Media,Evitar al閞genos comunes"
+"Staffordshire Bull Terrier,Displasia de cadera,Media,Monitorear movilidad"
+"Staffordshire Bull Terrier,Cataratas,Media,Revisiones oftalmol骻icas"
+"English Cocker Spaniel,Infecciones de o韉o,Alta,Limpieza frecuente de orejas"
+"English Cocker Spaniel,Cataratas,Media,Controles oftalmol骻icos"
+"English Cocker Spaniel,Problemas card韆cos,Media,Chequeos veterinarios"
+"New Found Land,Displasia de cadera,Alta,Evitar sobrepeso"
+"New Found Land,Problemas card韆cos,Alta,Monitoreo card韆co constante"
+"New Found Land,Torsi髇 g醩trica,Alta,Fraccionar comidas"
+"Pomeranian,Colapso traqueal,Alta,Evitar collares ajustados"
+"Pomeranian,Problemas dentales,Media,Higiene oral frecuente"
+"Pomeranian,Luxaci髇 de r髏ula,Media,Evitar saltos bruscos"
+"Leonberger,Displasia de cadera,Alta,Controlar actividad f韘ica"
+"Leonberger,Osteosarcoma,Alta,Monitoreo veterinario frecuente"
+"Leonberger,Problemas card韆cos,Alta,Chequeos card韆cos regulares"
+"American Pit Bull Terrier,Alergias cut醤eas,Media,Control dermatol骻ico frecuente"
+"American Pit Bull Terrier,Displasia de cadera,Media,Evitar obesidad"
+"American Pit Bull Terrier,Hipotiroidismo,Media,Ex醡enes hormonales"
+"Wheaten Terrier,Enfermedad renal,Alta,Monitoreo renal constante"
+"Wheaten Terrier,Alergias cut醤eas,Media,Evitar irritantes ambientales"
+"Wheaten Terrier,Problemas digestivos,Media,Dieta controlada"
+"Japanese Chin,Problemas respiratorios,Alta,Evitar ejercicio intenso en calor"
+"Japanese Chin,Problemas card韆cos,Media,Chequeos veterinarios frecuentes"
+"Japanese Chin,Luxaci髇 de r髏ula,Media,Evitar superficies resbalosas"
+"Samyod,Displasia de cadera,Alta,Control de peso y actividad"
+"Samyod,Diabetes,Media,Control alimenticio"
+"Samyod,Problemas oculares,Media,Revisiones oftalmol骻icas"
+"Scottish Terrier,C醤cer de vejiga,Alta,Controles veterinarios preventivos"
+"Scottish Terrier,Alergias cut醤eas,Media,Monitoreo dermatol骻ico"
+"Scottish Terrier,Problemas hep醫icos,Media,Ex醡enes de sangre peri骴icos"
+"Shiba Inu,Alergias cut醤eas,Media,Evitar alimentos irritantes"
+"Shiba Inu,Luxaci髇 de r髏ula,Media,Monitorear movilidad"
+"Shiba Inu,Glaucoma,Alta,Controles oftalmol骻icos frecuentes"
+"Pug,S韓drome braquicef醠ico,Alta,Evitar calor extremo y ejercicio intenso"
+"Pug,Problemas respiratorios,Alta,Monitorear respiraci髇 constantemente"
+"Pug,Obesidad,Media,Control nutricional estricto"
+"Saint Bernard,Displasia de cadera,Alta,Evitar sobrepeso"
+"Saint Bernard,Torsi髇 g醩trica,Alta,Fraccionar alimentaci髇 diaria"
+"Saint Bernard,Problemas card韆cos,Alta,Monitoreo veterinario frecuente"
+"American Bulldog,Displasia de cadera,Alta,Controlar peso corporal"
+"American Bulldog,Problemas respiratorios,Media,Evitar ejercicio excesivo en calor"
+"American Bulldog,Alergias cut醤eas,Media,Monitoreo dermatol骻ico"
+"Yorkshire Terrier,Colapso traqueal,Alta,Evitar collares ajustados"
+"Yorkshire Terrier,Problemas dentales,Alta,Higiene oral frecuente"
+"Yorkshire Terrier,Hipoglucemia,Media,Alimentaci髇 balanceada"
